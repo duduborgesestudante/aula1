@@ -1,0 +1,36 @@
+body{
+    text-align: center;
+    background-image: url("https://images7.alphacoders.com/441/441584.jpg");
+    background-size: cover;
+    color: white;
+    
+}
+#titulo{
+    font-size: 70px;
+    animation: text-rgb 5s infinite ;
+    font-family: Apple Chancery, cursive;
+}
+@keyframes text-rgb {
+    0%{
+        color: red;
+    }
+    15%{
+        color: orange;
+    }
+    30%{
+        color: yellow;
+    }
+    55%{
+        color: green;
+    }
+    70%{
+        color: blue;
+    }
+    90%{
+        color: blueviolet;
+    }
+   
+}
+p{
+    text-shadow: 10%;
+}
