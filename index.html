@@ -20,11 +20,12 @@
     <p id="mensal">Salario mensal: </p>
     
     <p id="resultado"></p>
-    <br><br><img src="Algoritmo46.png" alt="" width="350" height="300"><br><br>
+    <br><br><img src="Algoritmo46.png" alt="" width="800" height="300"><br><br>
     <br><br><br><br><br><br>
-    <div >
-    <pre>
-    <code>
+    <div id="box" >
+    <div id="visualg"> 
+    <pre >
+    
         algoritmo "46"
 
         var
@@ -46,10 +47,29 @@
         escreva("O salário do funcionario não é maior que o piso!")
         fimse
         fimalgoritmo
-    </code>
+    
     </pre>
-    <pre>
-        <code></code>
+    </div>
+    <div id="js">
+    <pre >
+        
+            function salario(){
+                var anual = Number (document.getElementById("sa").value)
+                var piso = Number (document.getElementById("psm").value)
+                var mensal = anual/12
+                document.getElementById("mensal").innerHTML = ("O salário mensal do funcionario é: "+  mensal)
+                if (mensal > piso){
+                    document.getElementById("resultado").innerHTML = ("O salário do funcionario é maior que o piso!")
+                }
+                if(mensal == piso){
+                    document.getElementById("resultado").innerHTML = ("O salário do funcionario é igual que o piso!")
+                }
+                if(mensal < piso){
+                    document.getElementById("resultado").innerHTML = ("O salário do funcionario não é maior que o piso!")
+                }
+            }
+       
     </pre>
+    </div>
     </div>
 </body></html>

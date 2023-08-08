@@ -34,3 +34,11 @@ body{
 p{
     text-shadow: 10%;
 }
+pre{
+    background-color: rgba(105, 105, 105, 0.192);
+    text-align: start;
+    display: flex;
+    width: min-content;
+    padding: 25px;
+    margin-left: 30px;
+}
