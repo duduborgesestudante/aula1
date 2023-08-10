@@ -1,14 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
 body{
     text-align: center;
     background-image: url("https://s2.glbimg.com/ntYDteZ2Bft42wQbHnk5ai1iViI=/e.glbimg.com/og/ed/f/original/2022/07/02/pexels-alberlan-barros-7311920.jpg");
     background-size: contain;
-    color: white;
+    display: flex;
+flex-direction: column;
+ justify-content: center;
+align-items: center;
+width: 100%;
+ height: 100%;
+ overflow-x: hidden;
+ color: rgb(231, 179, 252);
     
 }
 #titulo{
     font-size: 70px;
     animation: text-rgb 5s infinite ;
-    font-family: Apple Chancery, cursive;
+    font-family: 'Space Grotesk', sans-serif;
 }
 @keyframes text-rgb {
     0%{
@@ -40,5 +49,62 @@ pre{
     display: flex;
     width: min-content;
     padding: 25px;
-    margin-left: 30px;
+    margin: auto;
+}
+.box{
+    width: max-content;
+ height: max-content;
+ margin: auto;
+ text-align: center;
+ display: flex; 
+flex-direction: column;
+ background-color: rgb(67, 6, 124);
+ border-radius: 20px;
+ padding-top: 30px;
+ animation: led 5s infinite alternate-reverse;
+padding: 30px;
+}
+#Tituloindex{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: xx-large;
+    color: rgb(239, 216, 255);
+}
+button{
+    background-color: rgba(205, 174, 235, 0.76);
+    color: rgb(31, 30, 30);
+    border: 0.5px solid rgba(137, 11, 255, 0.356);
+    width: 250px; height: 60px;
+    margin: 5px; width: 150px; height: 40px;
+    border-radius: 8px;
+}
+button :hover   {
+    width: 250px; height: 60px;
+}
+input:focus{
+    height: 40px ;
+    border: 2px rgb(140, 67, 150) solid;
+}
+input{
+    border-radius: 3px;
+    border: 0;
+    height: 25px;
+    transition: all 0.5s;
+}
+.boxjs{
+    width: max-content;
+ height: max-content;
+ margin: auto;
+ text-align: center;
+ display: flex; 
+flex-direction: column;
+ background-color: rgb(67, 6, 124);
+ border-radius: 20px;
+ padding-top: 30px;
+ animation: led 5s infinite alternate-reverse;
+padding: 30px;
+margin-top: 25px;
+}
+#back{
+    text-align: start;
+    align-self: flex-start;
 }

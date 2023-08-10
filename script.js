@@ -14,3 +14,9 @@ function salario(){
         document.getElementById("resultado").innerHTML = ("O salário do funcionario não é maior que o piso!")
     }
 }
+function pagVisual(){
+    window.location.href="visualg.html"
+}
+function pagJs(){
+    window.location.href = "java.html"
+}

@@ -5,71 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="script.js"></script>
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="https://i.ytimg.com/vi/4A-6VPTxemk/maxresdefault.jpg" type="image/x-icon">
-    <title>Algoritmo 46</title>
+    <title>Inicio</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <p id="titulo">Algoritmo 46</p>
-
-    <label for="salario anual"> Digite o salário anual do funcionario:</label><br>
-    <input name="salario anual" id="sa" type="text"><br><br>
-    <label for="piso">Digite o piso salarial mensal da sua categoria:</label><br>
-    <input name="piso" id="psm" type="text"><br><br>
-    <button onclick="salario()">Comparar</button>
-    <p id="mensal">Salario mensal: </p>
+    <div class="box">
+        <p id="Tituloindex">Escolha a pagina</p><br><br>
+        <div style="display: flex;
+        flex-direction: row; text-align: center; margin: auto;"><button onclick="pagJs()">
+            JavaScript
+        </button>
+        <button onclick="pagVisual()">
+            Visualg
+        </button>
     
-    <p id="resultado"></p>
-    <br><br><img src="Algoritmo46.png" alt="" width="800" height="300"><br><br>
-    <br><br><br><br><br><br>
    
-    
-    <pre >
-    
-        algoritmo "46"
-
-        var
-        anual, piso, mensal: real
-        inicio
-        escreva("Digite o salário anual do funcionario: ")
-        leia(anual)
-        escreva("Digite o piso salarial mensal da sua categoria: ")
-        leia(piso)
-        mensal <- anual/12
-        escreva("O salário mensual do funcionario é: ", mensal)
-        se mensal > piso entao
-        escreva("O salário do funcionario é maior que o piso!")
-        fimse
-        se mensal = piso entao
-        escreva("O salário do funcionario é igual que o piso!")
-        fimse
-        se mensal < piso entao
-        escreva("O salário do funcionario não é maior que o piso!")
-        fimse
-        fimalgoritmo
-    
-    </pre>
-   
-     
-    <pre >
-        
-            function salario(){
-                var anual = Number (document.getElementById("sa").value)
-                var piso = Number (document.getElementById("psm").value)
-                var mensal = anual/12
-                document.getElementById("mensal").innerHTML = ("O salário mensal do funcionario é: "+  mensal)
-                if (mensal > piso){
-                    document.getElementById("resultado").innerHTML = ("O salário do funcionario é maior que o piso!")
-                }
-                if(mensal == piso){
-                    document.getElementById("resultado").innerHTML = ("O salário do funcionario é igual que o piso!")
-                }
-                if(mensal < piso){
-                    document.getElementById("resultado").innerHTML = ("O salário do funcionario não é maior que o piso!")
-                }
-            }
-       
-    </pre>
-    
-    
-</body></html>
+</div>
+    </div>
+</body>
+</html>
