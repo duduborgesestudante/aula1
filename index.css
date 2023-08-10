@@ -58,7 +58,7 @@ pre{
  text-align: center;
  display: flex; 
 flex-direction: column;
- background-color: rgb(67, 6, 124);
+background-color: rgb(41, 37, 44);
  border-radius: 20px;
  padding-top: 30px;
  animation: led 5s infinite alternate-reverse;
@@ -70,8 +70,8 @@ padding: 30px;
     color: rgb(239, 216, 255);
 }
 button{
-    background-color: rgba(205, 174, 235, 0.76);
-    color: rgb(31, 30, 30);
+    background-color: rgb(61, 58, 63);
+    color: rgb(206, 194, 211);
     border: 0.5px solid rgba(137, 11, 255, 0.356);
     width: 250px; height: 60px;
     margin: 5px; width: 150px; height: 40px;
@@ -97,7 +97,7 @@ input{
  text-align: center;
  display: flex; 
 flex-direction: column;
- background-color: rgb(67, 6, 124);
+ background-color: rgb(44, 39, 49);
  border-radius: 20px;
  padding-top: 30px;
  animation: led 5s infinite alternate-reverse;
